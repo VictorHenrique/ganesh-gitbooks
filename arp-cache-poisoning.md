@@ -10,13 +10,19 @@ Vimos há algumas aulas sobre o protocolo ARP e como ele funciona, mas aqui vai 
 
 Os hosts da rede mantêm uma tabela que mapeia um endereço IP a um endereço MAC em cada linha \(temporária\), que é preenchida quando acontece uma resolução de um IP que não consta na ARP cache. Com esse mapeamento, enquanto houver comunicação entre dois hosts, não é necessário fazer novas resoluções de IP através de ARP requests.
 
-![Nesse caso, a ARP Cache do Host A possui a linha do IP do Host C preenchida com o MAC dele, ent&#xE3;o &#xE9; poss&#xED;vel estabelecer uma conex&#xE3;o direta de A para C sem que haja um novo ARP request.](.gitbook/assets/arp_broadcast.png)
+<p align="center">
+  <img src=".gitbook/assets/arp_broadcast.png" alt>
+  <br/>
+  <em style="color=grey">Nesse caso, a ARP Cache do Host A possui a linha do IP do Host C preenchida com o MAC dele, então é possível estabelecer uma conexão direta de A para C sem que haja um novo ARP request.</em>
+</p>
 
 ### Ataque Man In the Middle \(MITM\)
 
 A ideia do ataque é simples: o invasor se posiciona entre as duas pontas de uma comunicação, interceptando as mensagens trocadas. Na prática, no entanto, é algo um pouco mais complexo, pois para funcionar direito, o atacante não pode ser detectado.
 
-![](https://i.imgur.com/YEPsm6o.png)
+<p align="center">
+  <img src="https://i.imgur.com/YEPsm6o.png">
+</p>
 
 ### Sobre o ataque
 
