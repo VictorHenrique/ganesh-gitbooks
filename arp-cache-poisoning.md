@@ -16,7 +16,7 @@ Os hosts da rede mantêm uma tabela que mapeia um endereço IP a um endereço MA
 
 A ideia do ataque é simples: o invasor se posiciona entre as duas pontas de uma comunicação, interceptando as mensagens trocadas. Na prática, no entanto, é algo um pouco mais complexo, pois para funcionar direito, o atacante não pode ser detectado.
 
-![]("https://i.imgur.com/YEPsm6o.png")
+![](https://i.imgur.com/YEPsm6o.png)
 
 ### Sobre o ataque
 
