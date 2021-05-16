@@ -4,7 +4,10 @@
 
 Quando a gente acessa, por exemplo, o [_https://ganesh.icmc.usp.br/_](https://ganesh.icmc.usp.br/), o nosso navegador precisa saber, na verdade, o endereço IP do site que estamos tentando acessar. Para isso, ele manda uma requisição para o DNS Server - que faz um _match_ da URL com o IP. Com isso em mãos, o resultado fica guardado temporariamente na DNS Cache do navegador, ou até do sistema operacional, para que o IP daquele domínio fique salvo e possa ser reutilizado.
 
-![Resolu&#xE7;&#xE3;o do dom&#xED;nio pelo DNS Server](.gitbook/assets/dns.png)
+<p align="center">
+  <img src=".gitbook/assets/dns.png">
+  <em style="color:grey">Resolução do domínio pelo DNS Server</em>
+</p>
 
 ### Fazendo uma resolução DNS manual
 
